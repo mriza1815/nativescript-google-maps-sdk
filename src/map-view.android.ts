@@ -1,6 +1,6 @@
 import application = require("tns-core-modules/application");
 
-import common = require("./map-view-common");
+import common = require("nativescript-google-maps-sdk/map-view-common");
 
 import {
     MapViewBase, BoundsBase, CircleBase,
@@ -8,13 +8,13 @@ import {
     PositionBase, ShapeBase, latitudeProperty, VisibleRegionBase,
     longitudeProperty, bearingProperty, zoomProperty,
     tiltProperty, StyleBase, UISettingsBase, getColorHue
-} from "./map-view-common";
+} from "nativescript-google-maps-sdk/map-view-common";
 import { Image } from "tns-core-modules/ui/image";
 import { Color } from "tns-core-modules/color";
 import { Point } from "tns-core-modules/ui/core/view";
 import imageSource = require("tns-core-modules/image-source");
 
-export * from "./map-view-common";
+export * from "nativescript-google-maps-sdk/map-view-common";
 
 declare const com: any;
 declare const android: any;

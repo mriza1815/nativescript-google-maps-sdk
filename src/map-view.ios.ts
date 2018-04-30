@@ -4,14 +4,14 @@ import {
     PositionBase, ShapeBase, latitudeProperty, VisibleRegionBase,
     longitudeProperty, bearingProperty, zoomProperty,
     tiltProperty, StyleBase, UISettingsBase, getColorHue
-} from "./map-view-common";
+} from "nativescript-google-maps-sdk/map-view-common";
 import { Color } from "tns-core-modules/color";
 import * as imageSource from 'tns-core-modules/image-source';
 import { Point } from "tns-core-modules/ui/core/view";
 import { Image } from "tns-core-modules/ui/image";
-import { GC } from "utils/utils"
+import { GC } from "tns-core-modules/utils/utils"
 
-export * from "./map-view-common";
+export * from "nativescript-google-maps-sdk/map-view-common";
 
 declare class GMSMapViewDelegate extends NSObject { };
 declare class GMSCameraPosition extends NSObject {
